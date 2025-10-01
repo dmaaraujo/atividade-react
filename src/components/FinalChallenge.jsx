@@ -1,6 +1,6 @@
 // src/components/FinalChallenge.jsx
 
-const FinalChallenge = ({ x, y }) => {
+const FinalChallenge = ({ x = 0, y = 0 }) => {
   return (
     <div>
       <h3>Desafio Final</h3>
